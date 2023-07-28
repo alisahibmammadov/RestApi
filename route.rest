@@ -1,0 +1,14 @@
+GET http://localhost:4040/subscribers
+
+###
+GET http://localhost:4040/subscribers/3
+
+###
+
+POST http://localhost:4040/subscribers
+Content-Type: application/json
+
+{
+    "name":"Alisahib",
+    "subscribedToChanel":"a1isahib"
+}
